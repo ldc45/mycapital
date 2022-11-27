@@ -1,27 +1,26 @@
 # Mycapital
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+Le projet ( Mini CDC)
 
-## Development server
+J'ai créer un projet minimaliste qui affiche à un utilisateur la capitale en fonction du pays que ce dernier aura saisi.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Pour ce faire, j'utilise une Api REST sur les pays du monde.
 
-## Code scaffolding
+ **REST Countries :**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+https://restcountries.eu/
 
-## Build
+J'utilise le ENDPOINT : 'name' pour effectuer la recherche et récupérer le fichier JSON correspondant :
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+**https://restcountries.eu/rest/v2/name/{name}**
 
-## Running unit tests
+![endpoint_1](https://user-images.githubusercontent.com/98770184/204141249-2372fea2-786e-48a8-b003-56128e77ad3b.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+J'affiche par la suite les résultats sur la capitale, la population, la monnaie, le drapeau, la langue du pays concerné.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+La page doit être en Boostrap.
 
-## Further help
+La page comporte un champ de formulaire ainsi qu'un bouton Valider.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
