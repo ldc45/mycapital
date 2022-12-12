@@ -25,3 +25,6 @@ La page comporte un champ de formulaire ainsi qu'un bouton Valider.
 
 
 ## Visiter mon site ici : https://ldc45.github.io/mycapital/
+
+![image](https://user-images.githubusercontent.com/98770184/207053767-a0574ba4-d4de-467c-b3dd-a2e17312859e.png)
+
